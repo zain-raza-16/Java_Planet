@@ -8,8 +8,10 @@ public class ThreeStacksInOneArray {
 
     public void addToStack(int stackNumber , int value){
         // do a for loop for that particular array and add a value
-        theArray.
+//        theArray.
     }
 
-    public void popFromStack(int stackNumber )
+    public void popFromStack(int stackNumber ){
+
+    }
 }
