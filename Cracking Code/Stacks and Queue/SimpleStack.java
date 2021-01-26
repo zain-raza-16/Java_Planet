@@ -30,9 +30,10 @@ public class SimpleStack {
         return output;
     }
 
-    public Constable peek(){
-        if (pointerIndex == -1) return null;
-        else return theArray[pointerIndex];
+    public int peek() {
+
+        if (pointerIndex == -1) System.out.println("String is empty");
+        return theArray[pointerIndex];
+        }
     }
 
-}
